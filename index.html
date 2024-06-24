@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <p class="intro">"He was walking alone at night when he found himself in front of what looked like a simple
+            arcade game.
+            However, in reality, his life was on the line."</p>
+        <h1>Guess Game</h1>
+
+        <div class="menu">
+            <button class="btn play-user-btn">Hope you can guess the number</button>
+            <button class="btn play-comp-btn">Let the game read your mind</button>
+        </div>
+
+        <div class="user-game hidden">
+            <p>I have selected a number between 1 and 100. Try to guess it!</p>
+            <input type="number" class="user-input" min="1" max="100" placeholder="Enter your guess">
+            <button class="btn guess-btn">Guess</button>
+            <p class="feedback"></p>
+            <button class="btn back-menu-user hidden">Back to Menu</button>
+        </div>
+
+        <div class="comp-game hidden">
+            <h2>Computer Guessing Game</h2>
+            <p>Think of a number between 1 and 100, and I'll try to guess it!</p>
+            <button class="btn start-comp-btn">Start</button>
+            <div class="comp-section hidden">
+                <p class="comp-feedback"></p>
+                <button class="btn lower">Lower</button>
+                <button class="btn higher">Higher</button>
+                <button class="btn correct">Correct</button>
+            </div>
+            <button class="btn back-menu-comp hidden">Back to Menu</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

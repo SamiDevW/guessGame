@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/Guess.jpg');
+    background-size: cover;
+    background-position: center;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro {
+    /* color: yellow; */
+    font-size: 32px;
+}
+
+h1,
+h2 {
+    color: white;
+}
+
+h1 {
+    padding-top: 80px;
+    font-size: 42px;
+}
+
+p {
+    color: aliceblue;
+}
+
+input,
+button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input {
+    width: 140px;
+}
+
+.btn {
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+.comp-section button {
+    background-color: #007bff;
+}
+
+.comp-section button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
